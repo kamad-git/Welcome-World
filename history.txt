@@ -1,0 +1,140 @@
+    1  git init
+    2   
+    3  git remote add origin "https://github.com/kamad-git/Welcome-World.git"
+    4  ls -lrt
+    5  cd .git
+    6  ls -lrt
+    7  cat HEAD
+    8  cd ..
+    9  ls -lrt
+   10  clear
+   11  git pull origin
+   12  git pull origin master
+   13  git pull origin master
+   14  git status
+   15  git add -A
+   16  git status
+   17  git commit -a -m "commint two txt test1 and test 2"
+   18  git config --global user.email "kamad0203@gmail.com"
+   19    git config --global user.name "Your Name"
+   20    git config --global user.name "Kamad"
+   21  git commit -a -m "commint two txt test1 and test 2"
+   22  git status
+   23  git add test1.txt
+   24  git status
+   25  git add -A
+   26  git status
+   27  git commit test3.txt -m "test3 txt file committed"
+   28  git status
+   29  git commit test1.txt -m "test1 modified txt file committed"
+   30  git status
+   31  git log
+   32  git branch firstbranch
+   33  git checkout firstbranch
+   34  git add test_B.txt
+   35  got status
+   36  git status
+   37  git commit -a
+   38  git log
+   39  lear
+   40  clear
+   41  ls -lrt
+   42  git checkout master
+   43  ls -lrt
+   44  git checkout firstbranch
+   45  ls -lrt
+   46  history
+   47  git checkout master
+   48  ls -lrt
+   49  git merge firstbranch
+   50  ls -lrt
+   51  git checkout firstbranch
+   52  ls -lrt
+   53  cat >> test_B
+   54  cat test_B
+   55  git status
+   56  git commit -a -m "Modified test_B"
+   57  ls -lrt
+   58  cat >> test_B.txt
+   59  ls -lrt
+   60  git commit -a -m "Modified test_B.txt"
+   61  git status
+   62  cat test_B.txt
+   63  git checkout master
+   64  cat test_B.txt
+   65  git merge firstbranch
+   66  cat test_B.txt
+   67  history
+   68  history
+   69  ssh-keygen
+   70  ssh-keygen
+   71  cat /c/Users/Kamad/.ssh/id_rsa.pub
+   72  history
+   73  cat /c/Users/Kamad/.ssh/id_rsa.pub
+   74  ssh -T git@github.com
+   75  clear
+   76  ls -lrt
+   77  git push origin master
+   78  git checkout firstbranch
+   79  git push origin firstbranch
+   80  cat >> test.txt
+   81  ls -lrt
+   82  git status
+   83  add -A 
+   84  git add -A
+   85  git status
+   86  commit -a -m "Commit two new files test.txt and test_B"
+   87  git commit -a -m "Commit two new files test.txt and test_B"
+   88  ls -lrt
+   89  git push origin firstbranch
+   90  ls -lrt
+   91  git checkout master
+   92  ls -lrt
+   93  ggit merge firstbranch
+   94  git merge firstbranch
+   95  ls -lrt
+   96  history
+   97  cat >> revert.txt
+   98  ls -lrt
+   99  rm revert.txt
+  100  ls -lrt
+  101  git checkout firstbranch
+  102  cat >> revert.txt
+  103  git status
+  104  git add revert.txt
+  105  ls -lrt
+  106  git status
+  107  commint -a
+  108  git commit -a
+  109  git log
+  110  cat >> revert.txt
+  111  cat >> revert.txt
+  112  cat revert.txt
+  113  git commit -a -m "revert2"
+  114  git log
+  115  ls -lrt
+  116  cat revert.txt
+  117  git checkout 11ea64e3 revert.txt 
+  118  cat revert.txt
+  119  git checkout fe8dcc65 revert.txt 
+  120  cat revert.txt
+  121  ls -lrt revert.txt
+  122  chmod  777 revert.txt
+  123  ls -lrt revert.txt
+  124  history
+  125  git commit -a
+  126  ls -lrt
+  127  cat revert.txt
+  128  rm revert.txt
+  129  cat >> rev.txt
+  130  ls -lrt
+  131  rm revert.txt
+  132  ls -lrt
+  133  git status
+  134  git add -A
+  135  cat rev.txt
+  136  git add -A
+  137  git status
+  138  git add rev.txt
+  139  history
+  140  history >> history.txt
